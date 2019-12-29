@@ -121,7 +121,12 @@ function HandleRequestGet(req, res)
 		else if(fs.lstatSync(loc_requrl).isFile()){
 			fs.readFile(loc_requrl, (err, binaryContent) => {
 				if(!err){
-					res.writeHead(200, {'Content-Type': 'text/plain'});   
+					if(path.extname(loc_requrl) === ".html"){
+						res.writeHead(200, {'Content-Type': 'text/html'});  
+					}
+					else{
+						res.writeHead(200, {'Content-Type': 'text/plain'}); 
+					} 
 					res.write(binaryContent, "binary");
 					res.end();
 				}
