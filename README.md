@@ -6,7 +6,7 @@ Poor attempt to replicate the terminal usage of the Python module SimpleHTTPServ
 * Web browser
 * node.js
 
-## To start server with default settings
+## Run with default settings
 `$ node simpleHTTPServer.js`
 
 ## View help, usage and options
