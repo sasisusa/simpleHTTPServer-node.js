@@ -14,3 +14,6 @@ Poor attempt to replicate the terminal usage of the Python module SimpleHTTPServ
 
 ## Application description
 Similar to Pyhton's SimpleHTTPServer (`$ python -m SimpleHTTPServer`)
+
+### Bad style
+Don't care about the mashup with " " and ' ' for now.
