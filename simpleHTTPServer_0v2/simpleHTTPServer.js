@@ -77,7 +77,7 @@ if(usedArgCount !== allArgCount || argv.length > 0){
 
 
 const port = argPort || 8000;
-const addr = argAddr || "0.0.0.0" //"localhost" "127.0.0.1"
+const addr = argAddr || "0.0.0.0"
 
 const server = http.createServer();
 server.listen(port, addr);
