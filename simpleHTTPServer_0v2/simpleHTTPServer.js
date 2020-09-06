@@ -239,7 +239,7 @@ if(!isNaN(parseInt(lastArg))){
 }
 
 
-// All argument should processed, if not exit
+// All the arguments should be processed, if not exit
 if(usedArgCount !== allArgCount || argv.length > 0){
 	console.log("Error: Invalid argument(s).");
 	return;
