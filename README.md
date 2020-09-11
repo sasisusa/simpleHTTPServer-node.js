@@ -1,10 +1,10 @@
 # simpleHTTPServer with Node.js
 
-Poor attempt to replicate the terminal usage of the Python module SimpleHTTPServer.
+Simple attempt (prototype) to replicate the terminal usage of the Python module SimpleHTTPServer.
 
 ## Needed
-* Web browser
 * node.js
+(* Web browser)
 
 ## Run with default settings
 `$ node simpleHTTPServer.js`
@@ -16,4 +16,4 @@ Poor attempt to replicate the terminal usage of the Python module SimpleHTTPServ
 Similar to Pyhton's SimpleHTTPServer (`$ python -m SimpleHTTPServer`)
 
 ### Bad style
-Don't care about the mashup with " " and ' ' for now.
+Mashup with " " and ' ' (for now).
